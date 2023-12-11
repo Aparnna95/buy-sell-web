@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Seller Approval</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/seller-approval.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"
+      integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="header">
+        <img class="header-img" src="images/Rectangle 24.png" alt="#" />
+      </div>
+    </nav>
+    <div class="main-container">
+      <h1>Verify Account</h1>
+      <p class="container-p">
+        You need approval to selling products.This is to give customers
+        confidence that they're buying high-quality products that are safe and
+        genuine.
+      </p>
+
+      <p class="select-doc-type">Choose any document type</p>
+
+      <button class="dropdown-btn1">
+        Aadhaar
+        <i class="fa fa-caret-up"></i>
+      </button>
+      <div class="aadhaar-dropdown-container">
+        <input type="text" placeholder="Card Number" value="" class="text-1" />
+        <input type="text" placeholder="Name on card" value="" class="text-1" />
+        <input
+          type="text"
+          placeholder="Date of birth"
+          value=""
+          class="text-1"
+        />
+        <div class="file-input-div">
+          <input type="file" id="file-input" class="upload-input" />
+          <p class="file-input-lbl-p">
+            <label id="file-input-label" for="file-input">Upload id</label>
+          </p>
+        </div>
+      </div>
+      <button class="dropdown-btn2">
+        Voter id
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <button class="dropdown-btn3">
+        Passport
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <button class="dropdown-btn4">
+        Driving Licence
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="approval-btn-div">
+        <form name="" action="#">
+          <a class="a-cancel" href="user-selection.html">Cancel</a>
+          <button class="approval-btn" onclick="sendApprovalDialog()">
+            Request Approval
+          </button>
+          <div id="dialog" title="Send Request" style="display: none">
+            <p class="request-question-p">
+              Are you sure want to send a request?
+            </p>
+            <p class="request-dialog-p">
+              Note: Please wait for admin approval <br />You can sell the
+              product only if the admin approved your request
+            </p>
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/dialog.js"></script>
+  </body>
+</html>

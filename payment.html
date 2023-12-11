@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/payment.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"
+      integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="rect-header">
+        <ul class="ul-menu">
+          <li class="li-menu">
+            <a class="a-menu active" href="home.html">Home</a>
+          </li>
+          <li class="li-menu">
+            <a class="a-menu" href="#" onclick="categoryDropDown()"
+              >Category <i class="fa fa-caret-down"></i
+            ></a>
+            <div
+              class="category-dropdown-content"
+              id="category-drop-down-id"
+              style="display: none"
+            >
+              <div class="row">
+                <div class="column">
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-motorcycle category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Bike</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-building category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Properties</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-cutlery category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Appliances</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-th category-icon" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Furniture</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-mobile category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Mobiles</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-book category-icon" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Books</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-life-ring category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Fashion</a
+                  >
+                  <a class="sub-menu" href="login.html"
+                    ><i class="fa fa-car category-icon" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Automobiles</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="li-menu">
+            <a class="a-menu" href="selling.html">Selling</a>
+          </li>
+          <li class="li-menu">
+            <a class="a-menu" id="account-id" href="#" onclick="dropDown()"
+              ><i class="fa fa-user-circle"></i>&nbsp;Account&nbsp;
+              <i class="fa fa-caret-down"></i
+            ></a>
+            <div
+              class="dropdown-content"
+              id="drop-down-id"
+              style="display: none"
+            >
+              <div class="row">
+                <div class="column">
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-user-circle"></i>&nbsp;&nbsp; My Profile</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+                    >&nbsp;&nbsp; My Orders</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-percent" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Offers</a
+                  >
+                  <a class="sub-menu" href="selling.html"
+                    ><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Selling</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Payment & Address</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-question" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Help & Support</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Settings</a
+                  >
+                  <a class="sub-menu" href="login.html"
+                    ><i class="fa fa-sign-out" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Logout</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="payment-info">
+        <div class="personal-info">
+          <h1 class="h-inline-block">1.PERSONAL INFORMATION</h1>
+          <i class="fa fa-edit"></i>
+          <p class="p-txt">
+            Buyer Name <br />
+            abcd@gmail.com <br />
+            0000000000
+          </p>
+        </div>
+        <div class="address-info">
+          <h1 class="h-inline-block">2.SHIPPING ADDRESS</h1>
+          <i class="fa fa-edit"></i>
+          <p class="p-txt">
+            Address Line 1 <br />
+            Address Line 2 <br />
+            Ernakulam <br />
+            PIN : 000000 Kerala India
+          </p>
+        </div>
+
+        <div class="payment-card-info">
+          <h1 class="h-inline-block">3.PAYMENT METHOD</h1>
+          <i class="fa fa-edit"></i>
+          <p class="p-txt">
+            Card Type : Credit Card <br />
+            Card No. : *** **** **** 0000 <br />
+            Card Name : XXXXXXXX <br />
+          </p>
+        </div>
+      </div>
+      <div class="order-summary-info">
+        <h1 class="h-inline-block">ORDER SUMMARY</h1>
+        <img class="order-summary-img" src="images/black-bike.jpg" alt="" />
+        <p class="p-tag-item-info">
+          2016 Royal Enfield <br />
+          Thunderbird 350 STD <br />
+          Year 2016 , Condition: Used <br />
+          346cc/40.8kmpl
+        </p>
+        <div class="div-sub-total">
+          <div class="div-sub-total-txt">
+            <p class="sub-total no-margin">Subtotal ( 1 item ) &nbsp;&nbsp;</p>
+          </div>
+          <div class="div-sub-total-amount">
+            <p class="sub-total no-margin">32,500</p>
+          </div>
+        </div>
+        <div class="div-sub-total">
+          <div class="div-sub-total-txt">
+            <p class="shipping-charge no-margin">Shipping &nbsp;&nbsp;</p>
+          </div>
+          <div class="div-sub-total-amount">
+            <p class="shipping-charge no-margin">750</p>
+          </div>
+        </div>
+
+        <div class="div-total-amount">
+          <p class="p-tag-total">Total &nbsp;&nbsp; 33,250</p>
+        </div>
+      </div>
+      <div class="div-confirm">
+        <a href="home.html" class="a-tag-confirm">Buy</a>
+      </div>
+
+      <div class="related-ads-info">
+        <h1 class="h-block">Related Ads</h1>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-left">
+        <img class="app-icon-img" src="images/Group 1.png" alt="" />
+        <img class="app-store-img" src="images/App-store.png" alt="" />
+        <img class="google-store-img" src="images/Google-store.png" alt="" />
+        <p class="footer-icon-info no-margin">Bai Bai</p>
+        <p class="footer-icon-info">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="footer-right">
+        <a class="footer-a-tag" href="#"><p class="footer-item">About Us</p></a>
+        <a class="footer-a-tag" href="#"><p class="footer-item">Careers</p></a>
+        <a class="footer-a-tag" href="#"><p class="footer-item">Blogs</p></a>
+        <a class="footer-a-tag" href="#"
+          ><p class="footer-item">Privacy Policy</p></a
+        >
+        <a class="footer-a-tag" href="#"
+          ><p class="footer-item">Terms and Conditions</p></a
+        >
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/account-drop-down.js"></script>
+    <script src="js/dialog.js"></script>
+  </body>
+</html>

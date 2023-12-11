@@ -1,0 +1,140 @@
+img.img-banner {
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  display: block;
+  height: 380px;
+}
+
+.container-content {
+  min-height: 400px;
+  padding-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+.selling-add-item-div {
+  font-family: "Poppins";
+  font-size: larger;
+}
+
+a.add-item-btn {
+  text-decoration: none;
+  height: 40px;
+  display: inline-block;
+  background-color: #25580d;
+  color: white;
+  width: 130px;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  padding-top: 10px;
+}
+
+.circle {
+  width: 76px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50px;
+  height: 76px;
+  margin: 0px 0px 0px 10px;
+  cursor: pointer;
+}
+
+.circle:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+.circle i.fa.fa-motorcycle,
+i.fa.fa-building,
+i.fa.fa-cutlery,
+i.fa.fa-th,
+i.fa.fa-mobile,
+i.fa.fa-book,
+i.fa.fa-life-ring {
+  font-size: -webkit-xxx-large;
+  color: darkgreen;
+  padding: 12px 0px 0px 0px;
+  height: 55px;
+}
+
+.circle i.fa.fa-motorcycle:hover,
+i.fa.fa-building:hover,
+i.fa.fa-cutlery:hover,
+i.fa.fa-th:hover,
+i.fa.fa-mobile:hover,
+i.fa.fa-book:hover,
+i.fa.fa-life-ring:hover {
+  color: black;
+}
+
+p.category-txt-p {
+  margin: 0px;
+}
+
+.category {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  padding: 10px 40px 10px 40px;
+}
+
+.category-items {
+  display: inline-block;
+  padding: 0px 5px 0px 5px;
+  width: 100%;
+}
+
+span.ui-dialog-title {
+  font-size: larger;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.ui-dialog-titlebar {
+  background-color: #25580df5 !important;
+  color: white !important;
+}
+
+button.btn-next {
+  background-color: #25580df5 !important;
+  color: white !important;
+}
+
+button.btn-next:hover {
+  color: white !important;
+}
+
+@media screen and (max-width: 1000px) {
+  img.img-banner {
+    height: auto;
+  }
+
+  .selling-add-item-div {
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+
+  a.add-item-btn {
+    width: 80px;
+    padding-top: 12px;
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  img.img-banner {
+    height: auto;
+  }
+
+  .selling-add-item-div {
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+
+  a.add-item-btn {
+    width: 80px;
+    padding-top: 12px;
+    height: 30px;
+  }
+}

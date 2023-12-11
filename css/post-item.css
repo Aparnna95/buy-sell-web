@@ -1,0 +1,109 @@
+.container-content {
+  min-height: 400px;
+  padding-bottom: 10px;
+  display: block;
+  font-family: "Poppins";
+  font-size: large;
+}
+
+img.selected-img {
+  width: 89%;
+  display: inline-block;
+}
+
+img.picture {
+  width: 154px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+img.picture:hover {
+  opacity: 0.8;
+}
+.p-desc {
+  padding: 0px 0px 0px 20px;
+}
+.all-upload-img {
+  display: block;
+  width: 89%;
+}
+
+.div-selected-img {
+  width: 50%;
+  display: block;
+  padding: 20px 0px 0px 20px;
+}
+
+.image-info-div {
+  display: flex;
+}
+
+.btns-div {
+  text-align: center;
+  padding: 25px 0px 35px 0px;
+}
+h1.item-head {
+  padding: 0px 0px 0px 20px;
+}
+a.post-btn {
+  text-decoration: none;
+  width: 100px;
+  display: inline-block;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  background-color: #25580d;
+  color: white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1000px) {
+  img.picture {
+    width: 70px;
+  }
+
+  .container-content {
+    font-size: x-small;
+  }
+
+  .image-info-div {
+    display: block;
+  }
+
+  .div-selected-img {
+    width: 100%;
+  }
+
+  img.selected-img {
+    width: 100%;
+  }
+
+  .all-upload-img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  img.picture {
+    width: 70px;
+  }
+
+  .container-content {
+    font-size: x-small;
+  }
+
+  .image-info-div {
+    display: block;
+  }
+
+  .div-selected-img {
+    width: 100%;
+  }
+
+  img.selected-img {
+    width: 100%;
+  }
+
+  .all-upload-img {
+    width: 100%;
+  }
+}

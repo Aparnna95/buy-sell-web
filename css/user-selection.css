@@ -1,0 +1,73 @@
+p.container-p {
+  font-family: Poppins;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.container-img {
+  text-align: center;
+  padding: 30px 1px 30px 1px;
+  display: block;
+}
+
+.seller-buyer-choose {
+  padding: 20px 1px 20px 1px;
+}
+
+.seller-a-tag {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+.buyer-a-tag {
+  width: 49%;
+  display: inline-block;
+  text-align: center;
+}
+
+a#buyer-id {
+  height: 30px !important;
+  width: 100px !important;
+  display: inline-block;
+  border-radius: 8px;
+  padding-top: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+
+a#seller-id {
+  height: 30px !important;
+  width: 100px !important;
+  display: inline-block;
+  background-color: white;
+  border-radius: 8px;
+  color: black;
+  padding-top: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+}
+
+.next-div-tag {
+  text-align: right;
+  display: block;
+}
+
+button.next-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  background: #25580d;
+  color: white;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+.active {
+  background-color: #04aa6d !important;
+  color: white !important;
+}

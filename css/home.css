@@ -1,0 +1,282 @@
+.hdr-div {
+  display: inline-block;
+  position: relative;
+  font-family: "Poppins";
+  font-size: small;
+  margin: 1px 1px 1px 40px;
+}
+
+.see-all-btn-div {
+  position: relative;
+  float: right;
+  padding: 20px 1px 1px 1px;
+}
+
+button.see-all-btn {
+  display: block;
+  height: 30px;
+  cursor: pointer;
+  margin: 5px 5px 5px 5px;
+}
+
+img.img-banner {
+  width: 100%;
+  padding-top: 2px;
+  padding-bottom: 5px;
+  display: block;
+  height: 380px;
+}
+
+.all-category-div {
+  padding: 5px 5px 5px 5px;
+  display: block;
+  font-family: "Poppins";
+  font-size: medium;
+}
+
+.circle {
+  width: 76px;
+  text-align: center;
+  border: 1px solid;
+  border-radius: 50px;
+  height: 76px;
+  margin: 0px 0px 0px 10px;
+  cursor: pointer;
+}
+
+.circle:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+.circle i.fa.fa-motorcycle,
+i.fa.fa-building,
+i.fa.fa-cutlery,
+i.fa.fa-th,
+i.fa.fa-mobile,
+i.fa.fa-book,
+i.fa.fa-life-ring {
+  font-size: -webkit-xxx-large;
+  color: darkgreen;
+  padding: 12px 0px 0px 0px;
+  height: 55px;
+}
+
+.circle i.fa.fa-motorcycle:hover,
+i.fa.fa-building:hover,
+i.fa.fa-cutlery:hover,
+i.fa.fa-th:hover,
+i.fa.fa-mobile:hover,
+i.fa.fa-book:hover,
+i.fa.fa-life-ring:hover {
+  color: black;
+}
+
+h1 {
+  font-size: large;
+  font-weight: 500;
+}
+
+p.category-txt-p {
+  margin: 0px;
+  font-size: small;
+}
+
+.category {
+  width: 100px;
+  text-align: center;
+  display: inline-block;
+  padding: 0px 40px 0px 40px;
+}
+
+.category-items {
+  display: inline-block;
+  padding: 0px 5px 0px 80px;
+  width: 92%;
+}
+
+.recomendation-all {
+  padding: 5px 5px 5px 5px;
+  display: block;
+}
+
+.recomendation-items {
+  display: inline-block;
+  padding: 0px 15px 30px 45px;
+  width: 96%;
+  font-family: "Poppins";
+}
+
+.recomendation {
+  width: 180px;
+  text-align: left;
+  display: inline-block;
+  margin: 35px 35px 0px 35px;
+  border: 1px solid lightgray;
+  padding: 1px 2px 0px 2px;
+  cursor: pointer;
+}
+
+.recomendation:hover {
+  color: black;
+  opacity: 0.8;
+}
+
+p.price-tag {
+  display: contents;
+  font-weight: 600;
+  font-size: large;
+}
+
+.rectangle {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+img.recomendation-img {
+  width: 180px;
+  display: block;
+  height: 115px;
+}
+
+img.app-banner {
+  width: 100%;
+}
+
+.load-more {
+  display: inline-block;
+  padding: 15px 15px 15px 45px;
+  width: 83%;
+  font-family: "Poppins";
+  height: 30px;
+  text-align: center;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  opacity: 0.8;
+  margin-bottom: 30px;
+  margin-left: 78px;
+}
+
+.div-app-banner {
+  width: 90%;
+  padding: 0px 0px 40px 60px;
+}
+
+@media screen and (max-width: 1000px) {
+  img.img-banner {
+    height: auto;
+  }
+
+  input.search-txt {
+    width: 200px;
+  }
+
+  button.search-btn {
+    width: 70px;
+  }
+
+  .search-div {
+    padding: 10px 0px 1px 1px;
+    right: 20%;
+  }
+
+  .category-items {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .category {
+    padding: 0px 0px 10px 25px;
+    width: 82px;
+  }
+
+  h1 {
+    font-size: small;
+  }
+
+  .recomendation {
+    width: 120px;
+    margin: 10px 20px 0px 18px;
+  }
+
+  img.recomendation-img {
+    width: 120px;
+  }
+
+  .recomendation-items {
+    font-size: x-small;
+    padding: 0px 0px 30px 22px;
+  }
+
+  .all-category-div {
+    font-size: small;
+  }
+
+  p.category-txt-p {
+    margin: 0px 0px 0px 14px;
+  }
+
+  .load-more {
+    width: 63%;
+    margin-left: 36px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  img.img-banner {
+    height: auto;
+  }
+
+  input.search-txt {
+    width: 200px;
+  }
+
+  button.search-btn {
+    width: 70px;
+  }
+
+  .search-div {
+    padding: 10px 0px 1px 1px;
+    right: 20%;
+  }
+
+  .category-items {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+  }
+
+  .category {
+    padding: 0px 0px 10px 25px;
+    width: 82px;
+  }
+
+  h1 {
+    font-size: medium;
+  }
+
+  .recomendation {
+    width: 120px;
+    margin: 10px 20px 0px 18px;
+  }
+
+  img.recomendation-img {
+    width: 120px;
+  }
+
+  .recomendation-items {
+    font-size: x-small;
+    padding: 0px 0px 30px 22px;
+  }
+
+  .all-category-div {
+    font-size: small;
+  }
+  p.category-txt-p {
+    margin: 0px 0px 0px 14px;
+  }
+
+  .load-more {
+    width: 63%;
+    margin-left: 36px;
+  }
+}

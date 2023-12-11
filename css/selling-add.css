@@ -1,0 +1,187 @@
+.container-content {
+  min-height: 400px;
+  padding-bottom: 10px;
+  display: block;
+  padding-top: 10px;
+  font-family: "Poppins";
+  font-size: larger;
+}
+
+label.form-label {
+  width: 300px;
+  display: inline-block;
+}
+
+input.form-input {
+  width: 300px;
+  height: 30px;
+  margin: 5px 1px 5px 1px;
+  font-family: "Poppins";
+  font-size: large;
+}
+
+.form-field-btns {
+  text-align: center;
+  display: block;
+  padding: 40px 1px 40px 1px;
+}
+
+a.btn-back {
+  text-decoration: none;
+  width: 100px;
+  display: inline-block;
+  background-color: white;
+  border: 1px solid lightgray;
+  color: black;
+  border-radius: 5px;
+}
+
+button.btn-next {
+  width: 100px;
+  height: 30px;
+  background-color: #25580d;
+  color: white;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-size: large;
+  cursor: pointer;
+}
+
+img.use-my-location-img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 13px;
+}
+
+button.use-my-location-btn {
+  text-align: center;
+  height: 40px;
+  padding: 1px 1px 1px 1px;
+  width: 200px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: #25580d;
+  color: white;
+  font-family: "Poppins";
+  font-size: medium;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+img.other-location-img {
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  padding-top: 10px;
+  padding-left: 13px;
+}
+
+button.other-location-btn {
+  text-align: center;
+  height: 40px;
+  padding: 1px 1px 1px 1px;
+  width: 200px;
+  cursor: pointer;
+  display: inline-block;
+  background-color: white;
+  color: black;
+  font-family: "Poppins";
+  font-size: medium;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.camera-div {
+  width: 115px;
+  font-size: medium;
+  border: 1px solid lightgray;
+  border-radius: 6px;
+  height: 90px;
+  text-align: center;
+}
+
+img.camera-pic-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 0px;
+}
+
+.p-30 {
+  padding: 30px 30px 30px 30px;
+}
+
+img.camera-img {
+  width: 30px;
+  display: block;
+  padding-left: 42px;
+}
+
+.snapshot-div {
+  width: 50%;
+  text-align: center;
+  display: block;
+  border: 1px solid lightgray;
+}
+
+.all-camera-pic-upload {
+  display: inline-block;
+}
+
+#file-input {
+  display: none;
+}
+
+#file-input-label {
+  font-size: small;
+  padding: 10px 15px;
+  display: block;
+  width: 85px;
+}
+
+p.file-input-lbl-p {
+  text-align: center;
+  display: inline-block;
+}
+
+@media screen and (max-width: 1000px) {
+  .container-content {
+    font-size: x-small;
+  }
+
+  input.form-input {
+    width: 98%;
+    font-size: small;
+  }
+
+  a.btn-back {
+    height: 25px;
+    font-size: medium;
+  }
+
+  button.btn-next {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container-content {
+    font-size: x-small;
+  }
+
+  input.form-input {
+    width: 98%;
+    font-size: small;
+  }
+
+  a.btn-back {
+    height: 25px;
+    font-size: medium;
+  }
+
+  button.btn-next {
+    font-size: medium;
+  }
+}

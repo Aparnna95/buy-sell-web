@@ -1,0 +1,290 @@
+.item-detail-img {
+  padding: 70px 1px 1px 1px;
+  display: inline-block;
+}
+
+img.item-img {
+  width: 400px;
+  display: inline-block;
+}
+
+p.item-info {
+  display: inline-block;
+  font-family: poppins;
+}
+
+.item-info-div {
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.req-offer-btns {
+  padding-bottom: 10px;
+  display: block;
+}
+
+button.secondary-btn {
+  width: 200px;
+  height: 30px;
+  margin: 10px 30px 0px 10px;
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid lightgray;
+  border-radius: 4px;
+}
+
+button.secondary-btn:hover {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.about-item-div {
+  font-family: "Poppins";
+  display: block;
+  padding: 1px 10px 1px 15px;
+}
+
+.item-desc-div {
+  font-family: "Poppins";
+  display: block;
+  padding: 1px 10px 1px 15px;
+}
+
+.seller-info {
+  height: 50px;
+  padding: 20px 40px 20px 40px;
+  border: 1px solid lightgray;
+  margin: 0px 0px 20px 0px;
+  text-align: left;
+  font-family: "Poppins";
+}
+
+i.fa.fa-user {
+  font-size: xxx-large;
+}
+
+.seller-img {
+  width: 30%;
+  display: inline-block;
+}
+
+.seller-name {
+  width: 30%;
+  display: inline-block;
+  padding: 0px 0px 0px 0px;
+}
+
+.seller-view-btn {
+  width: 30%;
+  display: inline-block;
+  text-align: right;
+}
+
+a.view-seller-a {
+  text-decoration: none;
+  display: inline-block;
+  height: 30px;
+  border: 1px solid lightgray;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  background-color: #25580d;
+}
+
+.recomendation {
+  width: 180px;
+  text-align: left;
+  display: inline-block;
+  margin: 20px 40px 0px 35px;
+  border: 1px solid;
+  padding: 1px 2px 0px 2px;
+  cursor: pointer;
+}
+
+.recomendation:hover {
+  background-color: #25580d96;
+  color: white;
+  box-shadow: 1px 2px 2px 2px #006400a3;
+}
+
+p.price-tag {
+  display: contents;
+}
+
+.rectangle {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+img.recomendation-img {
+  width: 180px;
+  display: block;
+}
+
+.related-ads-info {
+  display: inline-block;
+  padding-bottom: 20px;
+}
+
+p.request-question-p {
+  font-size: large;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+span.ui-dialog-title {
+  font-size: larger;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.ui-dialog-titlebar {
+  background-color: #25580df5 !important;
+  color: white !important;
+}
+
+button.btn-request {
+  background-color: #25580df5 !important;
+  color: white !important;
+}
+
+button.btn-request:hover {
+  color: white !important;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: medium;
+  }
+
+  .recomendation {
+    width: 120px;
+    margin: 10px 20px 0px 18px;
+  }
+
+  img.recomendation-img {
+    width: 120px;
+  }
+
+  img.item-img {
+    width: 380px;
+  }
+
+  .item-detail-img {
+    font-size: x-small;
+    font-family: "Poppins";
+  }
+  button.secondary-btn {
+    width: 80px;
+    font-size: x-small;
+  }
+
+  .req-offer-btns {
+    font-family: "Poppins";
+    font-size: x-small;
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+  }
+
+  .item-info-div {
+    width: 94%;
+    display: inline-block;
+  }
+
+  p.item-info {
+    display: inline-block;
+    font-family: poppins;
+  }
+
+  .about-item-div {
+    font-size: x-small;
+  }
+
+  .item-desc-div {
+    font-size: x-small;
+  }
+
+  .seller-info {
+    font-size: x-small;
+  }
+
+  a.view-seller-a {
+    padding-top: 2px;
+  }
+
+  .related-ads-info {
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: medium;
+  }
+
+  .recomendation {
+    width: 120px;
+    margin: 10px 20px 0px 18px;
+  }
+
+  img.recomendation-img {
+    width: 120px;
+  }
+
+  img.item-img {
+    width: 380px;
+  }
+
+  .item-detail-img {
+    font-size: x-small;
+    font-family: "Poppins";
+  }
+
+  button.secondary-btn {
+    width: 80px;
+    font-size: x-small;
+  }
+
+  .req-offer-btns {
+    font-family: "Poppins";
+    font-size: x-small;
+    width: 60%;
+    display: inline-block;
+    text-align: right;
+  }
+
+  .item-info-div {
+    width: 94%;
+    display: inline-block;
+  }
+
+  p.item-info {
+    display: inline-block;
+    font-family: poppins;
+  }
+
+  .about-item-div {
+    font-size: x-small;
+  }
+
+  .item-desc-div {
+    font-size: x-small;
+  }
+
+  .seller-info {
+    font-size: x-small;
+  }
+
+  a.view-seller-a {
+    padding-top: 2px;
+  }
+
+  .related-ads-info {
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+}
