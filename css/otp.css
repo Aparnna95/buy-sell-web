@@ -9,10 +9,8 @@ h5.otp-head {
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  margin-left: 120px;
 }
 .otp-sub {
-  margin-left: 120px;
   display: flex;
 }
 p.otp-p {
@@ -39,14 +37,19 @@ a.change-btn {
   padding-left: 12px;
 }
 form.otpbox-4 {
-  display: flex;
-  margin-left: 250px;
+  display: block;
   margin-top: 80px;
+  text-align: center;
 }
 input.otp-bt {
   width: 50px;
   height: 50px;
-  margin-left: 145px;
+  margin: 0px 20px 0px 20px;
+  text-align: center;
+}
+
+.input-field {
+  display: inline-block;
 }
 p.time-otp {
   color: #000;
@@ -77,7 +80,6 @@ a.resend-otp {
   line-height: normal;
 
   text-decoration: none;
-  margin-left: 665px;
   margin-top: 20px;
 }
 button.confirm-btn {
@@ -102,8 +104,61 @@ button.confirm-btn {
   padding-right: 150px;
   padding-top: 40px;
 }
-@media only screen and (max-width: 390px) {
+
+.div-resend-otp {
+  text-align: center;
+}
+
+@media screen and (max-width: 1000px) {
   form.otpbox-4 {
     margin-left: 10px;
+  }
+
+  .confirm-main {
+    padding-right: 0px;
+  }
+
+  a.change-btn {
+    margin-left: 0px;
+  }
+
+  p.otp-p {
+    font-size: small;
+  }
+
+  input.otp-bt {
+    width: 30px;
+    height: 30px;
+  }
+
+  form.otpbox-4 {
+    margin-left: 0px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  form.otpbox-4 {
+    margin-left: 10px;
+  }
+
+  .confirm-main {
+    padding-right: 0px;
+  }
+
+  a.change-btn {
+    margin-left: 0px;
+  }
+
+  p.otp-p {
+    font-size: small;
+  }
+
+  input.otp-bt {
+    width: 30px;
+    height: 30px;
+  }
+
+  form.otpbox-4 {
+    margin-left: 0px;
   }
 }

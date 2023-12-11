@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign Up</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="signup.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/common.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -21,51 +22,62 @@
         <img class="header-img" src="images/Rectangle 24.png" alt="#" />
       </div>
     </nav>
-    <div class="signup-main">
+    <div class="main-container">
       <div class="signup-left">
-        <form action="user-selection.html">
-          <input
-            class="signup-field"
-            name="signup"
-            placeholder="Name"
-            type="text"
-          /><br /><br />
-          <input
-            class="signup-field"
-            name="signup"
-            placeholder="Email id"
-            type="text"
-          /><br /><br />
-          <input
-            class="signup-field"
-            name="signup"
-            placeholder="mobile Number"
-            type="text"
-          /><br /><br />
-          <input
-            class="signup-field"
-            name="signup"
-            placeholder="Password"
-            type="text"
-          /><br /><br />
-          <input
-            class="signup-field"
-            name="signup"
-            placeholder="Confirm password"
-            type="text"
-          /><br /><br />
-          <div class="tick-box">
+        <form class="frm-sign-up" action="user-selection.html">
+          <div class="input-field">
             <input
-              class="otp-bt"
-              name="mobile-otp"
-              placeholder=""
+              class="signup-field"
+              name="signup"
+              placeholder="Name"
               type="text"
-            /><br /><br />
-            <p class="tick-p">
-              By signing up agree to our Terms & Condition and Privacy Policy
-            </p>
+            />
           </div>
-          <button class="otp-btn">Sign up</button>
+          <div class="input-field">
+            <input
+              class="signup-field"
+              name="signup"
+              placeholder="Email id"
+              type="text"
+            />
+          </div>
+          <div class="input-field">
+            <input
+              class="signup-field"
+              name="signup"
+              placeholder="mobile Number"
+              type="text"
+            />
+          </div>
+          <div class="input-field">
+            <input
+              class="signup-field"
+              name="signup"
+              placeholder="Password"
+              type="text"
+            />
+          </div>
+          <div class="input-field">
+            <input
+              class="signup-field"
+              name="signup"
+              placeholder="Confirm password"
+              type="text"
+            />
+          </div>
+          <div class="input-field-no-padding">
+            <div class="div-checkbox">
+              <input class="input-check" name="agreeCheck" type="checkbox" />
+            </div>
+            <div class="div-agree-desc">
+              <p class="tick-p">
+                By signing up agree to our Terms & Condition and Privacy Policy
+              </p>
+            </div>
+          </div>
+          <div class="div-sign-up-btn">
+            <button class="signup-btn">Sign up</button>
+          </div>
         </form>
       </div>
       <div class="signup-right">

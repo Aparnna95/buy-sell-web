@@ -1,0 +1,136 @@
+.signup-left {
+  width: 40%;
+  border: 1px solid;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  margin-left: 50px;
+  padding-top: 25px;
+  display: inline-block;
+}
+
+.signup-right {
+  display: inline-block;
+}
+.signup-main {
+  display: flex;
+}
+input.signup-field {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  width: 400px;
+  height: 50px;
+  margin-top: 0px;
+  padding-left: 20px;
+}
+.tick-box {
+  display: flex;
+}
+input.otp-bt {
+  width: 25px;
+  height: 25px;
+  margin-left: 74px;
+}
+p.tick-p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 15px;
+  margin-top: 5px;
+  display: inline-block;
+}
+button.otp-btn {
+  margin-left: 180px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+img.signup-img {
+  width: 70%;
+  height: 80%;
+  margin-left: 100px;
+}
+
+button.signup-btn {
+  border-radius: 8px;
+  background: #25580d;
+  width: 120px;
+  height: 51px;
+  flex-shrink: 0;
+  color: white;
+  border: none;
+  margin-left: 60px;
+  margin-bottom: 25px;
+  cursor: pointer;
+}
+
+.div-sign-up-btn {
+  text-align: center;
+}
+
+.input-field {
+  padding: 1px 30px 15px 5px;
+  text-align: center;
+  display: block;
+}
+
+.div-checkbox {
+  display: inline-block;
+}
+
+.div-agree-desc {
+  display: inline-block;
+}
+
+input.input-check {
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.input-field-no-padding {
+  padding: 1px 30px 15px 5px;
+  text-align: center;
+  display: block;
+}
+
+@media screen and (max-width: 1000px) {
+  .signup-right {
+    display: none;
+  }
+
+  .signup-left {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  input.signup-field {
+    width: 100%;
+  }
+
+  .input-field-no-padding {
+    display: flex;
+    padding: 1px 1px 1px 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .signup-right {
+    display: none;
+  }
+
+  .signup-left {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  input.signup-field {
+    width: 100%;
+  }
+
+  .input-field-no-padding {
+    display: flex;
+    padding: 1px 1px 1px 20px;
+  }
+}
