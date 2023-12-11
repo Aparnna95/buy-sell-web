@@ -10,6 +10,7 @@
 
 .signup-right {
   display: inline-block;
+  width: 45%;
 }
 .signup-main {
   display: flex;
