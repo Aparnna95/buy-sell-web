@@ -220,6 +220,10 @@ img.app-banner {
     width: 63%;
     margin-left: 36px;
   }
+
+  .div-app-banner {
+    padding: 0px 0px 40px 20px;
+  }
 }
 
 @media screen and (max-width: 400px) {
@@ -278,5 +282,9 @@ img.app-banner {
   .load-more {
     width: 63%;
     margin-left: 36px;
+  }
+
+  .div-app-banner {
+    padding: 0px 0px 40px 20px;
   }
 }
