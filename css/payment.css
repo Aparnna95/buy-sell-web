@@ -1,0 +1,264 @@
+.related-ads-info {
+  display: inline-block;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+}
+
+.recomendation {
+  width: 180px;
+  text-align: left;
+  display: inline-block;
+  margin: 20px 40px 0px 35px;
+  border: 1px solid;
+  padding: 1px 2px 0px 2px;
+  cursor: pointer;
+}
+
+.recomendation:hover {
+  background-color: #25580d96;
+  color: white;
+  box-shadow: 1px 2px 2px 2px #006400a3;
+}
+
+.rectangle {
+  padding-bottom: 10px;
+  display: inline-block;
+}
+
+img.recomendation-img {
+  width: 180px;
+  display: block;
+}
+
+img.order-summary-img {
+  width: 180px;
+  display: block;
+}
+
+p.price-tag {
+  display: contents;
+}
+
+.payment-info {
+  display: inline-block;
+  width: 50%;
+  position: relative;
+}
+
+.order-summary-info {
+  display: inline-block;
+  width: 25%;
+  position: absolute;
+  margin: 20px 10px 20px 10px;
+  border: 1px solid lightgray;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  font-family: "Poppins";
+}
+
+h1.h-inline-block {
+  display: inline-block;
+  font-family: poppins;
+  font-size: larger;
+}
+
+h1.h-block {
+  display: block;
+  font-family: poppins;
+  font-size: larger;
+}
+
+.personal-info {
+  position: relative;
+  margin: 20px 10px 20px 10px;
+  padding-left: 20px;
+  display: block;
+  border: 1px solid lightgray;
+}
+
+.address-info {
+  position: relative;
+  margin: 20px 10px 20px 10px;
+  padding-left: 20px;
+  display: block;
+  border: 1px solid lightgray;
+}
+
+.payment-card-info {
+  position: relative;
+  margin: 20px 10px 20px 10px;
+  padding-left: 20px;
+  display: block;
+  border: 1px solid lightgray;
+}
+
+i.fa.fa-edit {
+  font-size: 30px;
+  position: absolute;
+  padding: 20px 20px 1px 0px;
+  right: 0;
+  cursor: pointer;
+}
+
+p.p-txt {
+  font-family: "Poppins";
+}
+
+.div-confirm {
+  text-align: center;
+  display: block;
+}
+
+.div-confirm {
+  text-align: center;
+  display: block;
+  position: relative;
+  left: 45%;
+  width: 100px;
+}
+
+a.a-tag-confirm {
+  text-decoration: none;
+  display: block;
+  height: 30px;
+  border: 1px solid lightgray;
+  width: 100px;
+  position: relative;
+  right: 0%;
+  padding-top: 10px;
+  cursor: pointer;
+  color: white;
+  background-color: #006400f7;
+}
+
+.div-total-amount {
+  margin-right: 20px;
+  border-top: 1px solid;
+  text-align: right;
+  font-weight: 700;
+}
+
+.div-sub-total-txt {
+  width: 68%;
+  display: inline-block;
+  text-align: right;
+}
+
+.div-sub-total-amount {
+  width: 25%;
+  display: inline-block;
+  text-align: right;
+  font-weight: 700;
+}
+
+p.no-margin {
+  margin: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+  h1 {
+    font-size: medium !important;
+  }
+
+  .recomendation {
+    width: 120px;
+    margin: 10px 20px 0px 18px;
+  }
+
+  img.recomendation-img {
+    width: 120px;
+  }
+
+  img.order-summary-img {
+    width: 120px;
+  }
+
+  i.fa.fa-edit {
+    font-size: 20px;
+    position: absolute;
+    padding: 1px 1px 1px 0px;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .order-summary-info {
+    width: 40%;
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+
+  .personal-info {
+    font-size: x-small;
+  }
+
+  .address-info {
+    font-size: x-small;
+  }
+
+  .payment-card-info {
+    font-size: x-small;
+  }
+
+  .related-ads-info {
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+
+  .div-sub-total-txt {
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  h1 {
+    font-size: medium !important;
+  }
+
+  .recomendation {
+    width: 120px;
+    margin: 10px 20px 0px 18px;
+  }
+
+  img.recomendation-img {
+    width: 120px;
+  }
+
+  img.order-summary-img {
+    width: 120px;
+  }
+
+  i.fa.fa-edit {
+    font-size: 20px;
+    position: absolute;
+    padding: 1px 1px 1px 0px;
+    right: 0;
+    cursor: pointer;
+  }
+
+  .order-summary-info {
+    width: 40%;
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+
+  .personal-info {
+    font-size: x-small;
+  }
+
+  .address-info {
+    font-size: x-small;
+  }
+
+  .payment-card-info {
+    font-size: x-small;
+  }
+
+  .related-ads-info {
+    font-family: "Poppins";
+    font-size: x-small;
+  }
+
+  .div-sub-total-txt {
+    width: 60%;
+  }
+}

@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h5.otp-head {
+  color: #000;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-left: 120px;
+}
+.otp-sub {
+  margin-left: 120px;
+  display: flex;
+}
+p.otp-p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+a.change-btn {
+  margin-left: 400px;
+  text-decoration: none;
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-top: 5px;
+  height: 25px;
+  border: 1px solid;
+
+  width: 85px;
+  padding-left: 12px;
+}
+form.otpbox-4 {
+  display: flex;
+  margin-left: 250px;
+  margin-top: 80px;
+}
+input.otp-bt {
+  width: 50px;
+  height: 50px;
+  margin-left: 145px;
+}
+p.time-otp {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+p.code-p {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+  margin-top: 20px;
+}
+a.resend-otp {
+  color: #25580d;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  text-decoration: none;
+  margin-left: 665px;
+  margin-top: 20px;
+}
+button.confirm-btn {
+  border-radius: 8px;
+  background: #25580d;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #25580d;
+  width: 200px;
+  height: 60px;
+  flex-shrink: 0;
+
+  color: #fff;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.confirm-main {
+  text-align: end;
+  padding-right: 150px;
+  padding-top: 40px;
+}
+@media only screen and (max-width: 390px) {
+  form.otpbox-4 {
+    margin-left: 10px;
+  }
+}

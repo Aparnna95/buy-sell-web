@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Item Details</title>
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/item-details.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css"
+      integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rampart+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <div class="rect-header">
+        <ul class="ul-menu">
+          <li class="li-menu">
+            <a class="a-menu active" href="home.html">Home</a>
+          </li>
+          <li class="li-menu">
+            <a class="a-menu" href="#" onclick="categoryDropDown()"
+              >Category <i class="fa fa-caret-down"></i
+            ></a>
+            <div
+              class="category-dropdown-content"
+              id="category-drop-down-id"
+              style="display: none"
+            >
+              <div class="row">
+                <div class="column">
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-motorcycle category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Bike</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-building category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Properties</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-cutlery category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Appliances</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-th category-icon" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Furniture</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-mobile category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Mobiles</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-book category-icon" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Books</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i
+                      class="fa fa-life-ring category-icon"
+                      aria-hidden="true"
+                    ></i
+                    >&nbsp;&nbsp; Fashion</a
+                  >
+                  <a class="sub-menu" href="login.html"
+                    ><i class="fa fa-car category-icon" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Automobiles</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="li-menu">
+            <a class="a-menu" href="selling.html">Selling</a>
+          </li>
+          <li class="li-menu">
+            <a class="a-menu" id="account-id" href="#" onclick="dropDown()"
+              ><i class="fa fa-user-circle"></i>&nbsp;Account&nbsp;
+              <i class="fa fa-caret-down"></i
+            ></a>
+            <div
+              class="dropdown-content"
+              id="drop-down-id"
+              style="display: none"
+            >
+              <div class="row">
+                <div class="column">
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-user-circle"></i>&nbsp;&nbsp; My Profile</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-shopping-bag" aria-hidden="true"></i
+                    >&nbsp;&nbsp; My Orders</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-percent" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Offers</a
+                  >
+                  <a class="sub-menu" href="selling.html"
+                    ><i class="fa fa-tag" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Selling</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-money" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Payment & Address</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-question" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Help & Support</a
+                  >
+                  <a class="sub-menu" href="#"
+                    ><i class="fa fa-cog" aria-hidden="true"></i>&nbsp;&nbsp;
+                    Settings</a
+                  >
+                  <a class="sub-menu" href="login.html"
+                    ><i class="fa fa-sign-out" aria-hidden="true"></i
+                    >&nbsp;&nbsp; Logout</a
+                  >
+                </div>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="img-banner-div">
+        <div class="search-div">
+          <form action="#">
+            <input
+              type="text"
+              placeholder="Find products"
+              value=""
+              class="search-txt"
+            />
+            <button class="search-btn">Search</button>
+          </form>
+        </div>
+      </div>
+      <div class="item-detail-img">
+        <img class="item-img" src="images/black-bike.jpg" alt="" />
+        <div class="item-info-div">
+          <p class="item-info">
+            2016 Royal Enfield <br />
+            Thunderbird 350 STD
+            <br /><br />
+            Year 2016 , Condition: Used <br /><br />
+            346cc/40.8kmpl <br /><br />
+            <i class="fa fa-inr" aria-hidden="true"></i>
+            32500 <br />
+          </p>
+          <div class="req-offer-btns">
+            <button
+              class="send-btn secondary-btn"
+              id="btn-send-id"
+              onclick="openDialog()"
+            >
+              Send Request
+            </button>
+            <button
+              class="btn-buy secondary-btn"
+              id="btn-buy-id"
+              style="display: none"
+              onclick="window.location.href='payment.html'"
+            >
+              Buy Now
+            </button>
+            <button class="offer-btn secondary-btn">Make Offer</button>
+            <button class="back-btn secondary-btn" onclick="history.back()">
+              Back
+            </button>
+            <div id="dialog" title="Send Request" style="display: none">
+              <p class="request-question-p">
+                Are you sure want to send a request?
+              </p>
+              <p class="request-dialog-p">
+                Note: Please wait for seller approval <br />You can buy the
+                product only if the seller approved your request
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="about-item-div">
+        <h1>About this item</h1>
+        <p class="about-item-p">Brand : Royal Enfield Thunderbird</p>
+        <p class="about-item-p">Condition : Used</p>
+        <p class="about-item-p">Item Number : 126103854206</p>
+        <p class="about-item-p">Year : 2016</p>
+        <p class="about-item-p">KM Driven : 16,350 k m</p>
+        <p class="about-item-p">
+          VIN(Vehicle : ZDMFAKNW2NB007466 identification Number)
+        </p>
+      </div>
+
+      <div class="item-desc-div">
+        <h1>Item description</h1>
+        <p class="about-item-p">
+          Royal Enfield Thunderbird 350X <br />
+          2016 Last model in very good condition single hand use.There is not a
+          single problem with the bike. time to time service done.The last
+          service was done 500 kilometers ago. First owner
+        </p>
+      </div>
+
+      <div class="seller-info">
+        <div class="seller-img">
+          <i class="fa fa-user" aria-hidden="true"></i>
+        </div>
+
+        <div class="seller-name">
+          <p class="family-poppins">Arun Krishnan</p>
+        </div>
+        <div class="seller-view-btn">
+          <a class="view-seller-a" href="#">View Seller Details</a>
+        </div>
+      </div>
+
+      <div class="related-ads-info">
+        <h1>Related Ads</h1>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+        <div class="recomendation">
+          <div class="rectangle">
+            <img class="recomendation-img" src="images/black-bike.jpg" alt="" />
+          </div>
+          <i class="fa fa-inr" aria-hidden="true"></i>
+          <p class="category-txt-p price-tag">64000</p>
+          <p class="category-txt-p">Royal Enfield</p>
+          <p class="category-txt-p">349.34 cc/ 42 kmpl</p>
+          <p class="category-txt-p">Year 2022 , Pre-owned</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-left">
+        <img class="app-icon-img" src="images/Group 1.png" alt="" />
+        <img class="app-store-img" src="images/App-store.png" alt="" />
+        <img class="google-store-img" src="images/Google-store.png" alt="" />
+        <p class="footer-icon-info no-margin">Bai Bai</p>
+        <p class="footer-icon-info">Lorem ipsum dolor sit amet consectetur.</p>
+      </div>
+      <div class="footer-right">
+        <a class="footer-a-tag" href="#"><p class="footer-item">About Us</p></a>
+        <a class="footer-a-tag" href="#"><p class="footer-item">Careers</p></a>
+        <a class="footer-a-tag" href="#"><p class="footer-item">Blogs</p></a>
+        <a class="footer-a-tag" href="#"
+          ><p class="footer-item">Privacy Policy</p></a
+        >
+        <a class="footer-a-tag" href="#"
+          ><p class="footer-item">Terms and Conditions</p></a
+        >
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="js/account-drop-down.js"></script>
+    <script src="js/dialog.js"></script>
+  </body>
+</html>

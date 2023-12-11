@@ -1,0 +1,192 @@
+.header {
+  height: 170px !important;
+}
+
+p.container-p {
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+p.select-doc-type {
+  color: #000;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.approval-btn-div {
+  text-align: right;
+  display: block;
+  padding: 20px 12px 20px 12px;
+}
+
+button.approval-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 8px;
+  background: #25580d;
+  color: white;
+  font-family: "Poppins";
+  cursor: pointer;
+}
+
+a.a-cancel {
+  width: 110px;
+  height: 35px;
+  display: inline-block;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  background: #fff;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 6px;
+  margin-right: 15px;
+  text-decoration: none;
+  color: black;
+}
+
+button.dropdown-btn1,
+button.dropdown-btn2,
+button.dropdown-btn3,
+button.dropdown-btn4 {
+  padding: 6px 8px 6px 2px;
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+  font-family: Poppins;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+}
+
+.aadhaar-dropdown-container {
+  text-align: center;
+  display: block;
+  padding: 10px 1px 10px 1px;
+}
+
+input.text-1 {
+  width: 200px;
+  height: 30px;
+  display: inline-block;
+  padding: 5px 6px 6px 5px;
+  border: 1px solid #000;
+  background: #fff;
+  border-radius: 5px;
+  margin: 3px 20px 3px 20px;
+}
+
+#file-input {
+  display: none;
+}
+
+#file-input-label {
+  font-size: 1.3em;
+  padding: 10px 15px;
+  border: 1px solid black;
+  border-radius: 4%;
+  cursor: pointer;
+  display: block;
+  width: 200px;
+}
+
+.file-input-div {
+  text-align: center;
+  display: block;
+  padding: 20px 1px 20px 1px;
+}
+
+p.file-input-lbl-p {
+  text-align: center;
+  display: inline-block;
+}
+
+p.request-question-p {
+  font-size: large;
+  font-weight: 700;
+  font-family: "Poppins";
+}
+
+span.ui-dialog-title {
+  font-size: larger;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.ui-dialog-titlebar {
+  background-color: #25580df5 !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 1000px) {
+  p.container-p {
+    font-family: Poppins;
+    font-size: x-small;
+  }
+
+  button.dropdown-btn1,
+  button.dropdown-btn2,
+  button.dropdown-btn3,
+  button.dropdown-btn4 {
+    font-size: x-small;
+  }
+
+  a.a-cancel {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  p.select-doc-type {
+    font-size: large;
+  }
+
+  p.file-input-lbl-p {
+    font-size: x-small;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  p.container-p {
+    font-family: Poppins;
+    font-size: x-small;
+  }
+
+  button.dropdown-btn1,
+  button.dropdown-btn2,
+  button.dropdown-btn3,
+  button.dropdown-btn4 {
+    font-size: x-small;
+  }
+
+  a.a-cancel {
+    margin-bottom: 10px;
+  }
+
+  h1 {
+    font-size: x-large;
+  }
+
+  p.select-doc-type {
+    font-size: large;
+  }
+
+  p.file-input-lbl-p {
+    font-size: x-small;
+  }
+}
